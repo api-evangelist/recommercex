@@ -1,7 +1,26 @@
 aid: recommercex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recommercex.png
 name: RecommerceX
-description: 'RecommerceX is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the enrichment pipeline.'
+description: 'RecommerceX is an engineering-driven manufacturing company applying circular-economy
+  practices to transform industrial waste into advanced engineering materials. It operates three
+  flagship brands: RexSteel (seamless and ERW stainless steel pipes, tubes, forgings, flanges and
+  heat-exchanger tubes), RexPol (HDPE and DWC polymer pipes, polymer compounds and engineering
+  plastics), and RexTherm (critical infrastructure including liquid cooling, heat exchangers, power
+  components and acoustics). It serves oil & gas, chemical, pharmaceutical, infrastructure, automotive,
+  water, power and industrial manufacturing sectors. Surfaced as a portfolio company of accel and added
+  to the API Evangelist network; the public site publishes no API, SDK, developer portal, or
+  documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/recommercex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - B2B
+- Manufacturing
+- Circular Economy
+- Materials
+- Industrial
+- Stainless Steel
+- Polymers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,12 @@ maintainers:
 common:
 - type: Website
   url: https://recommercex.com/
+- type: Blog
+  url: https://recommercex.com/category/rcx-news/
+- type: Support
+  url: https://recommercex.com/contact/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
