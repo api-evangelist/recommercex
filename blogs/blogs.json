@@ -2,8 +2,8 @@
   "repo": "recommercex",
   "feeds": [
     {
-      "source": "https://recommercex.com/",
-      "feed_url": "https://recommercex.com/",
+      "source": "https://recommercex.com/category/rcx-news/",
+      "feed_url": "https://recommercex.com/category/rcx-news/",
       "title": "",
       "saved": 0,
       "method": "none"
@@ -11,6 +11,13 @@
     {
       "source": "https://recommercex.com/blog/feed/",
       "feed_url": "https://recommercex.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://recommercex.com/",
+      "feed_url": "https://recommercex.com/",
       "title": "",
       "saved": 0,
       "method": "none"
@@ -24,7 +31,7 @@
     }
   ],
   "post_count": 4,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
